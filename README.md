@@ -24,12 +24,12 @@ This project extracts foreign principals data that looks like this sample:
 
 ## Running the spiders
 
-Inside the foreign_principals directory, you can run a spider using the `scrapy crawl` command:
+You can run the spider using:
 
     $ cd foreign_principals
     $ scrapy crawl foreign_principals
 
-The data will be save to a file named output.json
+The data will be saved to the file output.json.
 
 ## Running the tests
 
