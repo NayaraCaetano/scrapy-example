@@ -18,10 +18,15 @@ This project extracts foreign principals data that looks like this sample:
 }
 ```
 
+## Requirements
+* Python 3.x
+* Scrapy 1.3
+
 ## Running the spiders
 
-You can run a spider using the `scrapy crawl` command, such as:
+Inside the foreign_principals directory, you can run a spider using the `scrapy crawl` command:
 
+    $ cd foreign_principals
     $ scrapy crawl foreign_principals
 
 The data will be save to a file named output.json
